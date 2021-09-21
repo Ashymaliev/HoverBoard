@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-width: 500px;
+  max-width: 400px;
 }
 
 .square {
@@ -26,5 +26,9 @@ body {
   background: #1d1d1d;
   margin: 2px;
   box-shadow: 0 0 2px #000;
-  transition: 3s ease;
+  transition: 2s ease;
+}
+
+.square:hover {
+  transition-duration: ;
 }
